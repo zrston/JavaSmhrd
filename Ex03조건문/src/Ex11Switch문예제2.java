@@ -22,7 +22,7 @@ public class Ex11Switch문예제2 {
 		case 9, 10 ,11:
 			System.out.println("가을");			
 			break;
-//		default :
+		default :
 			System.out.println("없엉");
 
 	}
