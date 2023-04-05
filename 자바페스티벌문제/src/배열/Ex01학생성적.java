@@ -37,7 +37,11 @@ public class Ex01학생성적 {
 				// 결과값 출력하기
 
 			}
-
+			System.out.println(a);
+			System.out.println(b);
+			System.out.println(c);
+			System.out.println(d);
+			System.out.println(f);
 		}
 
 	}

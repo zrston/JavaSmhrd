@@ -23,9 +23,11 @@ public class Ex05세자리수곱하기 {
 		// 출력문1
 		// (1) * (2)의 일의 자리 숫자
 		int out1 = num1 * (num2%100%10);
+		System.out.println(out1);
 		// 출력문2
 		// (1) * (2)의 십의 자리 숫자
 		int out2 = num1 * (num2%100/10);
+		System.out.println(out2);
 		// 출력문3
 		// (1) * (2)의 백의 자리 숫자
 		int out3 = num1 * (num2%100);

@@ -37,7 +37,7 @@ public class Ex02로또프로그램 {
 					i--;
 					break;
 				}
-
+				System.out.println(lotto);
 			}
 
 		}
