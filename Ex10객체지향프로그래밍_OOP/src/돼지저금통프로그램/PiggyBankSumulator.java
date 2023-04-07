@@ -13,8 +13,10 @@ public class PiggyBankSumulator {
 		// 출금기능 메소드 호출
 			pb.withdraw(500);
 		// 잔액확인 메소드 호출
-			pb.showMoney();
+			int m = pb.showMoney();
+			System.out.println(m+"원 남았습니다.");
 
+		//SOLID
+		// 단일책임원칙
 	}
-
 }
