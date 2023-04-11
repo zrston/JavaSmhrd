@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Ex13자료구조구현</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/큐/IntQueueMainYJ.java</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%20%EB%B0%9B%EC%9D%80%20%ED%8C%8C%EC%9D%BC/IntQueue%EC%98%88%EC%A7%84%EC%8C%A4%EC%9E%91%EC%84%B1/IntQueueMainYJ.java</locationURI>
+		</link>
+		<link>
+			<name>src/큐/IntQueueYJ.java</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%20%EB%B0%9B%EC%9D%80%20%ED%8C%8C%EC%9D%BC/IntQueue%EC%98%88%EC%A7%84%EC%8C%A4%EC%9E%91%EC%84%B1/IntQueueYJ.java</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
