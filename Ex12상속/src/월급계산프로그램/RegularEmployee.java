@@ -1,26 +1,32 @@
-package ¿ù±Ş°è»êÇÁ·Î±×·¥;
+package ì›”ê¸‰ê³„ì‚°í”„ë¡œê·¸ë¨;
 
-public class RegularEmployee {
-	private String empno;
-	private String name;
-	private int pay;
-	private int bonus;
+public class RegularEmployee extends Employee {
+	 
+//	String empno;
+//	String name;
+//	 int pay;
+	 int bonus;
 
 public RegularEmployee (String empno, String name, int pay, int bonus) {
-	this.empno = empno;
-	this.name = name;
-	this.pay = pay;
+	super(empno, name, pay);
 	this.bonus = bonus;
 	
 	}
+	// getMoneyPay (ë¦¬í„´íƒ€ì… : int)
+//	public int getMoneyPay() {
+//		return((pay+bonus)/12);
+//	}
 
-public static int getMoneyPay() {
-	System.out.println((pay*bonus)/12);
+@Override
+public int getMoneyPay() {
+	return((pay+bonus)/12);
 }
-
-public static void print() {
-	System.out.println("»ç¹ø:ÀÌ¸§:¿¬ºÀ");
-}
+	
+	// print (ë¦¬í„´íƒ€ì… : String)
+	// ì‚¬ë²ˆ : ì´ë¦„ : ì—°ë´‰
+//	public String print() {
+//		return empno + " : " + name + " : " + pay;
+//}
 
 
 
