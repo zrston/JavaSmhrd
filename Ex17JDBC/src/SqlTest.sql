@@ -3,3 +3,5 @@ create table member(
 	pw varchar2(200),
 	nick varchar2(200)
 )
+
+select * from member;
